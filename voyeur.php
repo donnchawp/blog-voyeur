@@ -3,7 +3,7 @@
 Plugin Name: Blog Voyeur
 Plugin URI: http://ocaoimh.ie/blog-voyeur/
 Description: Peek at what your users are doing
-Version: 0.2
+Version: 0.3
 Author: Donncha O Caoimh
 Author URI: http://ocaoimh.ie/
 */

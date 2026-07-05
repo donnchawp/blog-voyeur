@@ -2,7 +2,7 @@
 Contributors: donncha
 Tags: privacy,user,stats,log
 Tested up to: 2.7.1
-Stable tag: 0.2
+Stable tag: 0.3
 Donate link: http://ocaoimh.ie/wordpress-plugins/gifts-and-donations/
 
 Log by name where and when users visit your blog.
