@@ -1,0 +1,9 @@
+{
+	"repo": "donnchawp/blog-voyeur",
+	"slug": "blog-voyeur",
+	"mainFile": "voyeur.php",
+	"versionConstant": null,
+	"readme": "readme.txt",
+	"bumpPackageJson": false,
+	"nextVersionPlaceholder": false
+}
