@@ -14,5 +14,8 @@ Use the cookie left after someone leaves a comment to identify their future visi
 
 == Changelog ==
 
+### 0.3 - 2026-07-05
+* Added a notice that this plugin is unmaintained and no longer works: it relied on a tracking image in the RSS feed plus a cross-site cookie, both of which modern feed readers and browsers now block.
+
 ### 0.2
 * Existing WordPress.org release (imported to GitHub).
