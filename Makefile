@@ -1,5 +1,9 @@
 .DEFAULT_GOAL := help
 
+## Setup
+install: ## Install the Node dependencies used by the release tooling
+	npm install
+
 ## Release
 release: ## Prepare a release PR. Usage: make release VERSION=x.y.z
 	@test -n "$(VERSION)" || { echo "Usage: make release VERSION=x.y.z"; exit 1; }
@@ -18,4 +22,4 @@ clean: ## Remove the build/ directory
 help: ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-12s\033[0m %s\n", $$1, $$2}'
 
-.PHONY: release build i18n clean help
+.PHONY: install release build i18n clean help
