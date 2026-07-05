@@ -2,6 +2,8 @@
 
 A small WordPress plugin that logs by name where and when known users visit your blog, using the cookie left after someone leaves a comment. Published on WordPress.org: <https://wordpress.org/plugins/blog-voyeur/>.
 
+> **⚠️ Warning:** This plugin dates from 2008 and probably no longer works on modern sites. It identifies returning visitors using the WordPress comment cookie, and modern browsers now restrict and expire cookies aggressively for privacy, so this kind of cookie-based visitor tracking is unreliable. It has not been tested with recent versions of WordPress or PHP.
+
 ## Releasing
 
 Two-phase, CI-deployed flow:
