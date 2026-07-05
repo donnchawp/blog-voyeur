@@ -2,8 +2,6 @@
 
 A small WordPress plugin that logs by name where and when known users visit your blog, using the cookie left after someone leaves a comment. Published on WordPress.org: <https://wordpress.org/plugins/blog-voyeur/>.
 
-This repository is also the **test bed** for the shared plugin release tooling used across WP Job Manager, WP Super Cache, and the Crowdsignal plugins.
-
 ## Releasing
 
 Two-phase, CI-deployed flow:
